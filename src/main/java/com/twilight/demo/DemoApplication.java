@@ -17,7 +17,7 @@ public class DemoApplication {
     
     @GetMapping("/test")
     public String jenkinsTest(){
-        return "CI/CD by Jenkins with Docker";
+        return "CI/CD by Jenkins with Docker with automation.";
     }
 
 }
